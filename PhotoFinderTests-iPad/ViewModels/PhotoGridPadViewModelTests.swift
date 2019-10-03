@@ -1,6 +1,6 @@
 import XCTest
 import Nimble
-@testable import RxMVVMC_iPad
+@testable import PhotoFinder_iPad
 
 class PhotoGridPadViewModelTests: XCTestCase {
     

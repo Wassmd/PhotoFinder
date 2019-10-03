@@ -10,17 +10,16 @@
 		5F32BC50232D880500A27899 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F32BC4F232D880500A27899 /* AppDelegate.swift */; };
 		5F32BC57232D880600A27899 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F32BC56232D880600A27899 /* Assets.xcassets */; };
 		5F32BC5A232D880600A27899 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F32BC58232D880600A27899 /* LaunchScreen.storyboard */; };
-		5F32BC65232D880600A27899 /* RxMVVMCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F32BC64232D880600A27899 /* RxMVVMCTests.swift */; };
 		5F32BC75232E095900A27899 /* PhotoGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC6C00F22A54D5A00F17764 /* PhotoGridViewController.swift */; };
 		5F32BC76232E095E00A27899 /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC6C00E22A54D5A00F17764 /* PhotoDetailViewController.swift */; };
 		5F32BC77232E10FF00A27899 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC6C01D22A54D5B00F17764 /* AppCoordinator.swift */; };
 		5F32BC78232E110800A27899 /* PhotoGridCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC6C01E22A54D5B00F17764 /* PhotoGridCoordinator.swift */; };
 		5F32BC7B232E150B00A27899 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F32BC7A232E150B00A27899 /* AppCoordinator.swift */; };
 		5F32BC7D232E159C00A27899 /* PhotoGridCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F32BC7C232E159C00A27899 /* PhotoGridCoordinator.swift */; };
-		5F34495F23219EC00080AA99 /* RxMVVMCShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F34495623219EC00080AA99 /* RxMVVMCShared.framework */; };
+		5F34495F23219EC00080AA99 /* PhotoFinderShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F34495623219EC00080AA99 /* PhotoFinderShared.framework */; };
 		5F34496623219EC00080AA99 /* RxMVVMSharedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F34496523219EC00080AA99 /* RxMVVMSharedTests.swift */; };
 		5F34496823219EC00080AA99 /* RxMVVMShared.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F34495823219EC00080AA99 /* RxMVVMShared.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5F34496C23219EC00080AA99 /* RxMVVMCShared.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5F34495623219EC00080AA99 /* RxMVVMCShared.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5F34496C23219EC00080AA99 /* PhotoFinderShared.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5F34495623219EC00080AA99 /* PhotoFinderShared.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5F3583F22327BE9600781F6F /* CGSize+Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3583F12327BE9600781F6F /* CGSize+Square.swift */; };
 		5F3B34972321A25500EF69F2 /* PhotoDownloadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F151448231FC4B200EEE9ED /* PhotoDownloadService.swift */; };
 		5F3B34992321A84300EF69F2 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F0DB865231F03340021B883 /* Kingfisher.framework */; };
@@ -61,8 +60,8 @@
 		5F98FF9C232E393C00A1AC5D /* BaseAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F98FF99232E30E500A1AC5D /* BaseAppDelegate.swift */; };
 		5F98FF9D232E393D00A1AC5D /* BaseAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F98FF99232E30E500A1AC5D /* BaseAppDelegate.swift */; };
 		5F98FFA0232E3CC300A1AC5D /* PhotoGridPhoneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F98FF9F232E3CC300A1AC5D /* PhotoGridPhoneViewModel.swift */; };
-		5F98FFA3232E48F300A1AC5D /* RxMVVMCShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F34495623219EC00080AA99 /* RxMVVMCShared.framework */; };
-		5F98FFA4232E48F300A1AC5D /* RxMVVMCShared.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5F34495623219EC00080AA99 /* RxMVVMCShared.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5F98FFA3232E48F300A1AC5D /* PhotoFinderShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F34495623219EC00080AA99 /* PhotoFinderShared.framework */; };
+		5F98FFA4232E48F300A1AC5D /* PhotoFinderShared.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5F34495623219EC00080AA99 /* PhotoFinderShared.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5F98FFA8232E5F8500A1AC5D /* PhotoGridPadViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F98FFA7232E5F8500A1AC5D /* PhotoGridPadViewModel.swift */; };
 		5F98FFAA232E625400A1AC5D /* ItemSizeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F98FFA9232E625400A1AC5D /* ItemSizeCalculator.swift */; };
 		5F98FFAC232E743A00A1AC5D /* PhotoGridPhoneCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F98FFAB232E743A00A1AC5D /* PhotoGridPhoneCell.swift */; };
@@ -71,7 +70,6 @@
 		5F98FFB7232EA45D00A1AC5D /* PhotoGridPhoneViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F98FFB6232EA45D00A1AC5D /* PhotoGridPhoneViewModelTests.swift */; };
 		5FAC16A323280D8000468A27 /* PhotoDownloadServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAC16A223280D8000468A27 /* PhotoDownloadServiceMock.swift */; };
 		5FC6BFDF22A54B8800F17764 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC6BFDE22A54B8800F17764 /* AppDelegate.swift */; };
-		5FC6BFF422A54B8800F17764 /* RxMVVMCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC6BFF322A54B8800F17764 /* RxMVVMCTests.swift */; };
 		5FC6C02D22A54D5B00F17764 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FC6C00822A54D5A00F17764 /* Assets.xcassets */; };
 		5FC6C04022A54E8900F17764 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FC6C03F22A54E8900F17764 /* LaunchScreen.storyboard */; };
 		5FDF41A22327B898004FF002 /* PhotoGridViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDF41A02327B881004FF002 /* PhotoGridViewModelTests.swift */; };
@@ -131,7 +129,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				5F34496C23219EC00080AA99 /* RxMVVMCShared.framework in Embed Frameworks */,
+				5F34496C23219EC00080AA99 /* PhotoFinderShared.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,7 +140,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				5F98FFA4232E48F300A1AC5D /* RxMVVMCShared.framework in Embed Frameworks */,
+				5F98FFA4232E48F300A1AC5D /* PhotoFinderShared.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -162,20 +160,19 @@
 		5F151448231FC4B200EEE9ED /* PhotoDownloadService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDownloadService.swift; sourceTree = "<group>"; };
 		5F15144D231FE79800EEE9ED /* URL+Endpoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URL+Endpoints.swift"; sourceTree = "<group>"; };
 		5F15147C23205E3D00EEE9ED /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Crashlytics.framework; path = Frameworks/Crashlytics.framework; sourceTree = "<group>"; };
-		5F32BC4D232D880500A27899 /* RxMVVMC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxMVVMC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F32BC4D232D880500A27899 /* PhotoFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F32BC4F232D880500A27899 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
 		5F32BC56232D880600A27899 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F32BC59232D880600A27899 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F32BC5B232D880600A27899 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5F32BC60232D880600A27899 /* RxMVVMCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxMVVMCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F32BC64232D880600A27899 /* RxMVVMCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxMVVMCTests.swift; sourceTree = "<group>"; };
+		5F32BC60232D880600A27899 /* PhotoFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F32BC66232D880600A27899 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F32BC7A232E150B00A27899 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		5F32BC7C232E159C00A27899 /* PhotoGridCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGridCoordinator.swift; sourceTree = "<group>"; };
-		5F34495623219EC00080AA99 /* RxMVVMCShared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxMVVMCShared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F34495623219EC00080AA99 /* PhotoFinderShared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PhotoFinderShared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F34495823219EC00080AA99 /* RxMVVMShared.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RxMVVMShared.h; sourceTree = "<group>"; };
 		5F34495923219EC00080AA99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5F34495E23219EC00080AA99 /* RxMVVMCSharedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxMVVMCSharedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F34495E23219EC00080AA99 /* PhotoFinderSharedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoFinderSharedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F34496523219EC00080AA99 /* RxMVVMSharedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxMVVMSharedTests.swift; sourceTree = "<group>"; };
 		5F34496723219EC00080AA99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F3583F12327BE9600781F6F /* CGSize+Square.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGSize+Square.swift"; sourceTree = "<group>"; };
@@ -198,11 +195,10 @@
 		5F98FFB3232EA28000A1AC5D /* PhotoGridPadViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGridPadViewModelTests.swift; sourceTree = "<group>"; };
 		5F98FFB6232EA45D00A1AC5D /* PhotoGridPhoneViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGridPhoneViewModelTests.swift; sourceTree = "<group>"; };
 		5FAC16A223280D8000468A27 /* PhotoDownloadServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDownloadServiceMock.swift; sourceTree = "<group>"; };
-		5FC6BFDB22A54B8700F17764 /* RxMVVMC-iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RxMVVMC-iPad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FC6BFDB22A54B8700F17764 /* PhotoFinder-iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PhotoFinder-iPad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FC6BFDE22A54B8800F17764 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5FC6BFEA22A54B8800F17764 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5FC6BFEF22A54B8800F17764 /* RxMVVMCTests-iPad.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RxMVVMCTests-iPad.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5FC6BFF322A54B8800F17764 /* RxMVVMCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxMVVMCTests.swift; sourceTree = "<group>"; };
+		5FC6BFEF22A54B8800F17764 /* PhotoFinderTests-iPad.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PhotoFinderTests-iPad.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FC6BFF522A54B8800F17764 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5FC6C00222A54D5A00F17764 /* LayoutConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutConstants.swift; sourceTree = "<group>"; };
 		5FC6C00322A54D5A00F17764 /* ViewCreator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewCreator.swift; sourceTree = "<group>"; };
@@ -235,7 +231,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F98FFA3232E48F300A1AC5D /* RxMVVMCShared.framework in Frameworks */,
+				5F98FFA3232E48F300A1AC5D /* PhotoFinderShared.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +261,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F34495F23219EC00080AA99 /* RxMVVMCShared.framework in Frameworks */,
+				5F34495F23219EC00080AA99 /* PhotoFinderShared.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,7 +315,7 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
-		5F32BC4E232D880500A27899 /* RxMVVMC */ = {
+		5F32BC4E232D880500A27899 /* PhotoFinder */ = {
 			isa = PBXGroup;
 			children = (
 				5F32BC6D232D887100A27899 /* Application */,
@@ -329,17 +325,16 @@
 				5F98FFAD232E7A0600A1AC5D /* Views */,
 				5F32BC6E232D8B4E00A27899 /* Resources */,
 			);
-			path = RxMVVMC;
+			path = PhotoFinder;
 			sourceTree = "<group>";
 		};
-		5F32BC63232D880600A27899 /* RxMVVMCTests */ = {
+		5F32BC63232D880600A27899 /* PhotoFinderTests */ = {
 			isa = PBXGroup;
 			children = (
 				5F98FFB5232EA42F00A1AC5D /* ViewModels */,
-				5F32BC64232D880600A27899 /* RxMVVMCTests.swift */,
 				5F32BC66232D880600A27899 /* Info.plist */,
 			);
-			path = RxMVVMCTests;
+			path = PhotoFinderTests;
 			sourceTree = "<group>";
 		};
 		5F32BC6D232D887100A27899 /* Application */ = {
@@ -377,7 +372,7 @@
 			path = Coordinatore;
 			sourceTree = "<group>";
 		};
-		5F34495723219EC00080AA99 /* RxMVVMCShared */ = {
+		5F34495723219EC00080AA99 /* PhotoFinderShared */ = {
 			isa = PBXGroup;
 			children = (
 				5F98FF98232E30C900A1AC5D /* Application */,
@@ -392,10 +387,10 @@
 				5F34495823219EC00080AA99 /* RxMVVMShared.h */,
 				5F34495923219EC00080AA99 /* Info.plist */,
 			);
-			path = RxMVVMCShared;
+			path = PhotoFinderShared;
 			sourceTree = "<group>";
 		};
-		5F34496423219EC00080AA99 /* RxMVVMCSharedTests */ = {
+		5F34496423219EC00080AA99 /* PhotoFinderSharedTests */ = {
 			isa = PBXGroup;
 			children = (
 				5FAC16A123280D5800468A27 /* Mocks */,
@@ -403,7 +398,7 @@
 				5F34496523219EC00080AA99 /* RxMVVMSharedTests.swift */,
 				5F34496723219EC00080AA99 /* Info.plist */,
 			);
-			path = RxMVVMCSharedTests;
+			path = PhotoFinderSharedTests;
 			sourceTree = "<group>";
 		};
 		5F5481842324444F000A38B0 /* FlowLayout */ = {
@@ -498,12 +493,12 @@
 		5FC6BFD222A54B8700F17764 = {
 			isa = PBXGroup;
 			children = (
-				5F32BC4E232D880500A27899 /* RxMVVMC */,
-				5F32BC63232D880600A27899 /* RxMVVMCTests */,
-				5FC6BFDD22A54B8700F17764 /* RxMVVMC-iPad */,
-				5FC6BFF222A54B8800F17764 /* RxMVVMCTests-iPad */,
-				5F34495723219EC00080AA99 /* RxMVVMCShared */,
-				5F34496423219EC00080AA99 /* RxMVVMCSharedTests */,
+				5F32BC4E232D880500A27899 /* PhotoFinder */,
+				5F32BC63232D880600A27899 /* PhotoFinderTests */,
+				5FC6BFDD22A54B8700F17764 /* PhotoFinder-iPad */,
+				5FC6BFF222A54B8800F17764 /* PhotoFinderTests-iPad */,
+				5F34495723219EC00080AA99 /* PhotoFinderShared */,
+				5F34496423219EC00080AA99 /* PhotoFinderSharedTests */,
 				5FC6BFDC22A54B8700F17764 /* Products */,
 				5F0DB864231F03340021B883 /* Frameworks */,
 			);
@@ -512,17 +507,17 @@
 		5FC6BFDC22A54B8700F17764 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5FC6BFDB22A54B8700F17764 /* RxMVVMC-iPad.app */,
-				5FC6BFEF22A54B8800F17764 /* RxMVVMCTests-iPad.xctest */,
-				5F34495623219EC00080AA99 /* RxMVVMCShared.framework */,
-				5F34495E23219EC00080AA99 /* RxMVVMCSharedTests.xctest */,
-				5F32BC4D232D880500A27899 /* RxMVVMC.app */,
-				5F32BC60232D880600A27899 /* RxMVVMCTests.xctest */,
+				5FC6BFDB22A54B8700F17764 /* PhotoFinder-iPad.app */,
+				5FC6BFEF22A54B8800F17764 /* PhotoFinderTests-iPad.xctest */,
+				5F34495623219EC00080AA99 /* PhotoFinderShared.framework */,
+				5F34495E23219EC00080AA99 /* PhotoFinderSharedTests.xctest */,
+				5F32BC4D232D880500A27899 /* PhotoFinder.app */,
+				5F32BC60232D880600A27899 /* PhotoFinderTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5FC6BFDD22A54B8700F17764 /* RxMVVMC-iPad */ = {
+		5FC6BFDD22A54B8700F17764 /* PhotoFinder-iPad */ = {
 			isa = PBXGroup;
 			children = (
 				5FC6BFFE22A54BAA00F17764 /* Application */,
@@ -530,17 +525,16 @@
 				5F98FFA6232E5F6A00A1AC5D /* ViewModel */,
 				5FC6C00722A54D5A00F17764 /* Resources */,
 			);
-			path = "RxMVVMC-iPad";
+			path = "PhotoFinder-iPad";
 			sourceTree = "<group>";
 		};
-		5FC6BFF222A54B8800F17764 /* RxMVVMCTests-iPad */ = {
+		5FC6BFF222A54B8800F17764 /* PhotoFinderTests-iPad */ = {
 			isa = PBXGroup;
 			children = (
 				5F98FFB2232EA10E00A1AC5D /* ViewModels */,
-				5FC6BFF322A54B8800F17764 /* RxMVVMCTests.swift */,
 				5FC6BFF522A54B8800F17764 /* Info.plist */,
 			);
-			path = "RxMVVMCTests-iPad";
+			path = "PhotoFinderTests-iPad";
 			sourceTree = "<group>";
 		};
 		5FC6BFFE22A54BAA00F17764 /* Application */ = {
@@ -712,9 +706,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		5F32BC4C232D880500A27899 /* RxMVVMC */ = {
+		5F32BC4C232D880500A27899 /* PhotoFinder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5F32BC67232D880600A27899 /* Build configuration list for PBXNativeTarget "RxMVVMC" */;
+			buildConfigurationList = 5F32BC67232D880600A27899 /* Build configuration list for PBXNativeTarget "PhotoFinder" */;
 			buildPhases = (
 				5F32BC49232D880500A27899 /* Sources */,
 				5F32BC4A232D880500A27899 /* Frameworks */,
@@ -728,14 +722,14 @@
 			dependencies = (
 				5F98FFA2232E48CF00A1AC5D /* PBXTargetDependency */,
 			);
-			name = RxMVVMC;
+			name = PhotoFinder;
 			productName = RxMVVMC;
-			productReference = 5F32BC4D232D880500A27899 /* RxMVVMC.app */;
+			productReference = 5F32BC4D232D880500A27899 /* PhotoFinder.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5F32BC5F232D880600A27899 /* RxMVVMCTests */ = {
+		5F32BC5F232D880600A27899 /* PhotoFinderTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5F32BC6A232D880600A27899 /* Build configuration list for PBXNativeTarget "RxMVVMCTests" */;
+			buildConfigurationList = 5F32BC6A232D880600A27899 /* Build configuration list for PBXNativeTarget "PhotoFinderTests" */;
 			buildPhases = (
 				5F32BC5C232D880600A27899 /* Sources */,
 				5F32BC5D232D880600A27899 /* Frameworks */,
@@ -747,14 +741,14 @@
 			dependencies = (
 				5F32BC62232D880600A27899 /* PBXTargetDependency */,
 			);
-			name = RxMVVMCTests;
+			name = PhotoFinderTests;
 			productName = RxMVVMCTests;
-			productReference = 5F32BC60232D880600A27899 /* RxMVVMCTests.xctest */;
+			productReference = 5F32BC60232D880600A27899 /* PhotoFinderTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5F34495523219EC00080AA99 /* RxMVVMCShared */ = {
+		5F34495523219EC00080AA99 /* PhotoFinderShared */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5F34497123219EC00080AA99 /* Build configuration list for PBXNativeTarget "RxMVVMCShared" */;
+			buildConfigurationList = 5F34497123219EC00080AA99 /* Build configuration list for PBXNativeTarget "PhotoFinderShared" */;
 			buildPhases = (
 				5F34495123219EC00080AA99 /* Headers */,
 				5F34495223219EC00080AA99 /* Sources */,
@@ -767,14 +761,14 @@
 			);
 			dependencies = (
 			);
-			name = RxMVVMCShared;
+			name = PhotoFinderShared;
 			productName = RxMVVMShared;
-			productReference = 5F34495623219EC00080AA99 /* RxMVVMCShared.framework */;
+			productReference = 5F34495623219EC00080AA99 /* PhotoFinderShared.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		5F34495D23219EC00080AA99 /* RxMVVMCSharedTests */ = {
+		5F34495D23219EC00080AA99 /* PhotoFinderSharedTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5F34497223219EC00080AA99 /* Build configuration list for PBXNativeTarget "RxMVVMCSharedTests" */;
+			buildConfigurationList = 5F34497223219EC00080AA99 /* Build configuration list for PBXNativeTarget "PhotoFinderSharedTests" */;
 			buildPhases = (
 				5F34495A23219EC00080AA99 /* Sources */,
 				5F34495B23219EC00080AA99 /* Frameworks */,
@@ -788,14 +782,14 @@
 				5F34496123219EC00080AA99 /* PBXTargetDependency */,
 				5F34496323219EC00080AA99 /* PBXTargetDependency */,
 			);
-			name = RxMVVMCSharedTests;
+			name = PhotoFinderSharedTests;
 			productName = RxMVVMSharedTests;
-			productReference = 5F34495E23219EC00080AA99 /* RxMVVMCSharedTests.xctest */;
+			productReference = 5F34495E23219EC00080AA99 /* PhotoFinderSharedTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5FC6BFDA22A54B8700F17764 /* RxMVVMC-iPad */ = {
+		5FC6BFDA22A54B8700F17764 /* PhotoFinder-iPad */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5FC6BFF822A54B8800F17764 /* Build configuration list for PBXNativeTarget "RxMVVMC-iPad" */;
+			buildConfigurationList = 5FC6BFF822A54B8800F17764 /* Build configuration list for PBXNativeTarget "PhotoFinder-iPad" */;
 			buildPhases = (
 				5FC6BFD722A54B8700F17764 /* Sources */,
 				5FC6BFD822A54B8700F17764 /* Frameworks */,
@@ -809,14 +803,14 @@
 			dependencies = (
 				5F34496A23219EC00080AA99 /* PBXTargetDependency */,
 			);
-			name = "RxMVVMC-iPad";
+			name = "PhotoFinder-iPad";
 			productName = RxMVVMC;
-			productReference = 5FC6BFDB22A54B8700F17764 /* RxMVVMC-iPad.app */;
+			productReference = 5FC6BFDB22A54B8700F17764 /* PhotoFinder-iPad.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5FC6BFEE22A54B8800F17764 /* RxMVVMCTests-iPad */ = {
+		5FC6BFEE22A54B8800F17764 /* PhotoFinderTests-iPad */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5FC6BFFB22A54B8800F17764 /* Build configuration list for PBXNativeTarget "RxMVVMCTests-iPad" */;
+			buildConfigurationList = 5FC6BFFB22A54B8800F17764 /* Build configuration list for PBXNativeTarget "PhotoFinderTests-iPad" */;
 			buildPhases = (
 				5FC6BFEB22A54B8800F17764 /* Sources */,
 				5FC6BFEC22A54B8800F17764 /* Frameworks */,
@@ -829,9 +823,9 @@
 			dependencies = (
 				5FC6BFF122A54B8800F17764 /* PBXTargetDependency */,
 			);
-			name = "RxMVVMCTests-iPad";
+			name = "PhotoFinderTests-iPad";
 			productName = RxMVVMCTests;
-			productReference = 5FC6BFEF22A54B8800F17764 /* RxMVVMCTests-iPad.xctest */;
+			productReference = 5FC6BFEF22A54B8800F17764 /* PhotoFinderTests-iPad.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -867,7 +861,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5FC6BFD622A54B8700F17764 /* Build configuration list for PBXProject "RxMVVMC" */;
+			buildConfigurationList = 5FC6BFD622A54B8700F17764 /* Build configuration list for PBXProject "PhotoFinder" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -880,12 +874,12 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5F32BC4C232D880500A27899 /* RxMVVMC */,
-				5F32BC5F232D880600A27899 /* RxMVVMCTests */,
-				5FC6BFDA22A54B8700F17764 /* RxMVVMC-iPad */,
-				5FC6BFEE22A54B8800F17764 /* RxMVVMCTests-iPad */,
-				5F34495523219EC00080AA99 /* RxMVVMCShared */,
-				5F34495D23219EC00080AA99 /* RxMVVMCSharedTests */,
+				5F32BC4C232D880500A27899 /* PhotoFinder */,
+				5F32BC5F232D880600A27899 /* PhotoFinderTests */,
+				5FC6BFDA22A54B8700F17764 /* PhotoFinder-iPad */,
+				5FC6BFEE22A54B8800F17764 /* PhotoFinderTests-iPad */,
+				5F34495523219EC00080AA99 /* PhotoFinderShared */,
+				5F34495D23219EC00080AA99 /* PhotoFinderSharedTests */,
 			);
 		};
 /* End PBXProject section */
@@ -1172,7 +1166,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F98FFB7232EA45D00A1AC5D /* PhotoGridPhoneViewModelTests.swift in Sources */,
-				5F32BC65232D880600A27899 /* RxMVVMCTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1244,7 +1237,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F98FFB4232EA28000A1AC5D /* PhotoGridPadViewModelTests.swift in Sources */,
-				5FC6BFF422A54B8800F17764 /* RxMVVMCTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1253,32 +1245,32 @@
 /* Begin PBXTargetDependency section */
 		5F32BC62232D880600A27899 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5F32BC4C232D880500A27899 /* RxMVVMC */;
+			target = 5F32BC4C232D880500A27899 /* PhotoFinder */;
 			targetProxy = 5F32BC61232D880600A27899 /* PBXContainerItemProxy */;
 		};
 		5F34496123219EC00080AA99 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5F34495523219EC00080AA99 /* RxMVVMCShared */;
+			target = 5F34495523219EC00080AA99 /* PhotoFinderShared */;
 			targetProxy = 5F34496023219EC00080AA99 /* PBXContainerItemProxy */;
 		};
 		5F34496323219EC00080AA99 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5FC6BFDA22A54B8700F17764 /* RxMVVMC-iPad */;
+			target = 5FC6BFDA22A54B8700F17764 /* PhotoFinder-iPad */;
 			targetProxy = 5F34496223219EC00080AA99 /* PBXContainerItemProxy */;
 		};
 		5F34496A23219EC00080AA99 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5F34495523219EC00080AA99 /* RxMVVMCShared */;
+			target = 5F34495523219EC00080AA99 /* PhotoFinderShared */;
 			targetProxy = 5F34496923219EC00080AA99 /* PBXContainerItemProxy */;
 		};
 		5F98FFA2232E48CF00A1AC5D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5F34495523219EC00080AA99 /* RxMVVMCShared */;
+			target = 5F34495523219EC00080AA99 /* PhotoFinderShared */;
 			targetProxy = 5F98FFA1232E48CF00A1AC5D /* PBXContainerItemProxy */;
 		};
 		5FC6BFF122A54B8800F17764 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5FC6BFDA22A54B8700F17764 /* RxMVVMC-iPad */;
+			target = 5FC6BFDA22A54B8700F17764 /* PhotoFinder-iPad */;
 			targetProxy = 5FC6BFF022A54B8800F17764 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1306,7 +1298,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 					"$(PROJECT_DIR)/Frameworks",
 				);
-				INFOPLIST_FILE = RxMVVMC/Application/Info.plist;
+				INFOPLIST_FILE = PhotoFinder/Application/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1330,7 +1322,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 					"$(PROJECT_DIR)/Frameworks",
 				);
-				INFOPLIST_FILE = RxMVVMC/Application/Info.plist;
+				INFOPLIST_FILE = PhotoFinder/Application/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1351,7 +1343,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JCPY7FXGR4;
 				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Carthage/Build/iOS";
-				INFOPLIST_FILE = RxMVVMCTests/Info.plist;
+				INFOPLIST_FILE = PhotoFinderTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1362,7 +1354,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RxMVVMC.app/RxMVVMC";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoFinder.app/PhotoFinder";
 			};
 			name = Debug;
 		};
@@ -1374,7 +1366,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JCPY7FXGR4;
 				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Carthage/Build/iOS";
-				INFOPLIST_FILE = RxMVVMCTests/Info.plist;
+				INFOPLIST_FILE = PhotoFinderTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1385,7 +1377,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RxMVVMC.app/RxMVVMC";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoFinder.app/PhotoFinder";
 			};
 			name = Release;
 		};
@@ -1405,7 +1397,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 					"$(PROJECT_DIR)/Frameworks",
 				);
-				INFOPLIST_FILE = RxMVVMCShared/Info.plist;
+				INFOPLIST_FILE = PhotoFinderShared/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1439,7 +1431,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 					"$(PROJECT_DIR)/Frameworks",
 				);
-				INFOPLIST_FILE = RxMVVMCShared/Info.plist;
+				INFOPLIST_FILE = PhotoFinderShared/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1464,7 +1456,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Carthage/Build/iOS";
-				INFOPLIST_FILE = RxMVVMCSharedTests/Info.plist;
+				INFOPLIST_FILE = PhotoFinderSharedTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1475,7 +1467,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RxMVVMC-iPad.app/RxMVVMC-iPad";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoFinder-iPad.app/PhotoFinder-iPad";
 			};
 			name = Debug;
 		};
@@ -1486,7 +1478,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Carthage/Build/iOS";
-				INFOPLIST_FILE = RxMVVMCSharedTests/Info.plist;
+				INFOPLIST_FILE = PhotoFinderSharedTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1497,7 +1489,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RxMVVMC-iPad.app/RxMVVMC-iPad";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoFinder-iPad.app/PhotoFinder-iPad";
 			};
 			name = Release;
 		};
@@ -1629,7 +1621,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 					"$(PROJECT_DIR)/Frameworks",
 				);
-				INFOPLIST_FILE = "RxMVVMC-iPad/Application/Info.plist";
+				INFOPLIST_FILE = "PhotoFinder-iPad/Application/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1656,7 +1648,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 					"$(PROJECT_DIR)/Frameworks",
 				);
-				INFOPLIST_FILE = "RxMVVMC-iPad/Application/Info.plist";
+				INFOPLIST_FILE = "PhotoFinder-iPad/Application/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1681,7 +1673,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = "RxMVVMCTests-iPad/Info.plist";
+				INFOPLIST_FILE = "PhotoFinderTests-iPad/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1691,7 +1683,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RxMVVMC-iPad.app/RxMVVMC-iPad";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoFinder-iPad.app/PhotoFinder-iPad";
 			};
 			name = Debug;
 		};
@@ -1705,7 +1697,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = "RxMVVMCTests-iPad/Info.plist";
+				INFOPLIST_FILE = "PhotoFinderTests-iPad/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1715,14 +1707,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RxMVVMC-iPad.app/RxMVVMC-iPad";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoFinder-iPad.app/PhotoFinder-iPad";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5F32BC67232D880600A27899 /* Build configuration list for PBXNativeTarget "RxMVVMC" */ = {
+		5F32BC67232D880600A27899 /* Build configuration list for PBXNativeTarget "PhotoFinder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5F32BC68232D880600A27899 /* Debug */,
@@ -1731,7 +1723,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5F32BC6A232D880600A27899 /* Build configuration list for PBXNativeTarget "RxMVVMCTests" */ = {
+		5F32BC6A232D880600A27899 /* Build configuration list for PBXNativeTarget "PhotoFinderTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5F32BC6B232D880600A27899 /* Debug */,
@@ -1740,7 +1732,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5F34497123219EC00080AA99 /* Build configuration list for PBXNativeTarget "RxMVVMCShared" */ = {
+		5F34497123219EC00080AA99 /* Build configuration list for PBXNativeTarget "PhotoFinderShared" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5F34496D23219EC00080AA99 /* Debug */,
@@ -1749,7 +1741,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5F34497223219EC00080AA99 /* Build configuration list for PBXNativeTarget "RxMVVMCSharedTests" */ = {
+		5F34497223219EC00080AA99 /* Build configuration list for PBXNativeTarget "PhotoFinderSharedTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5F34496F23219EC00080AA99 /* Debug */,
@@ -1758,7 +1750,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5FC6BFD622A54B8700F17764 /* Build configuration list for PBXProject "RxMVVMC" */ = {
+		5FC6BFD622A54B8700F17764 /* Build configuration list for PBXProject "PhotoFinder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5FC6BFF622A54B8800F17764 /* Debug */,
@@ -1767,7 +1759,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5FC6BFF822A54B8800F17764 /* Build configuration list for PBXNativeTarget "RxMVVMC-iPad" */ = {
+		5FC6BFF822A54B8800F17764 /* Build configuration list for PBXNativeTarget "PhotoFinder-iPad" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5FC6BFF922A54B8800F17764 /* Debug */,
@@ -1776,7 +1768,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5FC6BFFB22A54B8800F17764 /* Build configuration list for PBXNativeTarget "RxMVVMCTests-iPad" */ = {
+		5FC6BFFB22A54B8800F17764 /* Build configuration list for PBXNativeTarget "PhotoFinderTests-iPad" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5FC6BFFC22A54B8800F17764 /* Debug */,

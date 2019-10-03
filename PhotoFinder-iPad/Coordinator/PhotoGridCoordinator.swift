@@ -24,7 +24,7 @@ class PhotoGridCoordinator: Coordinatable {
     
     private lazy var photoGridViewModel = PhotoGridPadViewModel()
     private(set) lazy var photoGridViewController: PhotoGridViewController = {
-        photoGridViewModel.downloadPhotos(with searchString: "Sunflower")
+        photoGridViewModel.downloadPhotos()
         let controller = PhotoGridViewController(
             viewModel: photoGridViewModel,
             coordinatorDelegate: self)

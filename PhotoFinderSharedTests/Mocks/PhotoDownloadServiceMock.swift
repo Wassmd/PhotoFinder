@@ -4,8 +4,8 @@ import RxSwift
 import RxCocoa
 
 class PhotoDownloadServiceMock: PhotoDownloadServiceProtocol {
-    
-    
+
+        
     // MARK: Inner Types
     
     let calledCount = CalledCount()
@@ -16,10 +16,10 @@ class PhotoDownloadServiceMock: PhotoDownloadServiceProtocol {
     }
     
     struct ReturnValue {
-        var photosSingle: Single<[Photo]> = Single.just([])
+        var photosSingle: Single<PhotosDetail> = Observable.empty().asSingle()
     }
     
-    func downloadPhotos(with searchText: String) -> Single<[Photo]> {
+    func downloadPhotos(with searchText: String, pageNumber: String) -> Single<PhotosDetail> {
         return returnValue.photosSingle
     }
 }
