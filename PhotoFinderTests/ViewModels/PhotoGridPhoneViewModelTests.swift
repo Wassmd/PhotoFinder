@@ -1,6 +1,6 @@
 import XCTest
 import Nimble
-@testable import PhotoFinder
+@testable import Photo_Finder
 
 class PhotoGridPhoneViewModelTests: XCTestCase {
     

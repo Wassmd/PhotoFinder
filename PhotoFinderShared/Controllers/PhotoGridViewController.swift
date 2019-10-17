@@ -8,7 +8,6 @@ public protocol PhotoGridViewControllerDelegate: AnyObject {
 
 open class PhotoGridViewController<CellType: PhotoGridCell>: UIViewController, UICollectionViewDataSource, UICollectionViewDataSourcePrefetching, UICollectionViewDelegate, UISearchResultsUpdating {
     
-    
     // MARK: - Properties
     // MARK: Immutable
     
@@ -20,7 +19,7 @@ open class PhotoGridViewController<CellType: PhotoGridCell>: UIViewController, U
     
     // MARK: Mutable
     
-    private lazy var collectionView: GridCollectionView = {
+    public lazy var collectionView: GridCollectionView = {
         let collectionView = GridCollectionView(
             itemSize: viewModel.initialItemSize(for: view.bounds.width),
             minimumPadding: LayoutConstants.defaultPadding

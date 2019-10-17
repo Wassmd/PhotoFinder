@@ -2,7 +2,7 @@ import XCTest
 import Nimble
 import RxSwift
 import RxTest
-@testable import RxMVVMCShared
+@testable import PhotoFinderShared
 
 class PhotoGridViewModelTests: XCTestCase {
     

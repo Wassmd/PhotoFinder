@@ -1,5 +1,5 @@
 import Foundation
-import RxMVVMCShared
+import PhotoFinderShared
 import RxSwift
 import RxCocoa
 

@@ -73,6 +73,7 @@
 		5FC6C02D22A54D5B00F17764 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FC6C00822A54D5A00F17764 /* Assets.xcassets */; };
 		5FC6C04022A54E8900F17764 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FC6C03F22A54E8900F17764 /* LaunchScreen.storyboard */; };
 		5FDF41A22327B898004FF002 /* PhotoGridViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDF41A02327B881004FF002 /* PhotoGridViewModelTests.swift */; };
+		5FE22D9C23566699005FDA8E /* PhotoGridPadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE22D9B23566699005FDA8E /* PhotoGridPadViewController.swift */; };
 		5FFA894323269AB700C44406 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFA89412326985F00C44406 /* Logger.swift */; };
 		5FFA894523269CA200C44406 /* Error+LocalizedMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFA894423269CA200C44406 /* Error+LocalizedMessage.swift */; };
 /* End PBXBuildFile section */
@@ -120,6 +121,13 @@
 			remoteGlobalIDString = 5FC6BFDA22A54B8700F17764;
 			remoteInfo = RxMVVMC;
 		};
+		5FE22D9D23566A74005FDA8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FC6BFD322A54B8700F17764 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F32BC4C232D880500A27899;
+			remoteInfo = PhotoFinder;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -160,7 +168,7 @@
 		5F151448231FC4B200EEE9ED /* PhotoDownloadService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDownloadService.swift; sourceTree = "<group>"; };
 		5F15144D231FE79800EEE9ED /* URL+Endpoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URL+Endpoints.swift"; sourceTree = "<group>"; };
 		5F15147C23205E3D00EEE9ED /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Crashlytics.framework; path = Frameworks/Crashlytics.framework; sourceTree = "<group>"; };
-		5F32BC4D232D880500A27899 /* PhotoFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F32BC4D232D880500A27899 /* Photo Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Photo Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F32BC4F232D880500A27899 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
 		5F32BC56232D880600A27899 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F32BC59232D880600A27899 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -195,7 +203,7 @@
 		5F98FFB3232EA28000A1AC5D /* PhotoGridPadViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGridPadViewModelTests.swift; sourceTree = "<group>"; };
 		5F98FFB6232EA45D00A1AC5D /* PhotoGridPhoneViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGridPhoneViewModelTests.swift; sourceTree = "<group>"; };
 		5FAC16A223280D8000468A27 /* PhotoDownloadServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDownloadServiceMock.swift; sourceTree = "<group>"; };
-		5FC6BFDB22A54B8700F17764 /* PhotoFinder-iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PhotoFinder-iPad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FC6BFDB22A54B8700F17764 /* Photo Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Photo Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FC6BFDE22A54B8800F17764 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5FC6BFEA22A54B8800F17764 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5FC6BFEF22A54B8800F17764 /* PhotoFinderTests-iPad.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PhotoFinderTests-iPad.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -222,6 +230,7 @@
 		5FC6C02722A54D5B00F17764 /* PhotoGridCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoGridCell.swift; sourceTree = "<group>"; };
 		5FC6C03F22A54E8900F17764 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5FDF41A02327B881004FF002 /* PhotoGridViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGridViewModelTests.swift; sourceTree = "<group>"; };
+		5FE22D9B23566699005FDA8E /* PhotoGridPadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGridPadViewController.swift; sourceTree = "<group>"; };
 		5FFA89412326985F00C44406 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		5FFA894423269CA200C44406 /* Error+LocalizedMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Error+LocalizedMessage.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -507,11 +516,11 @@
 		5FC6BFDC22A54B8700F17764 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5FC6BFDB22A54B8700F17764 /* PhotoFinder-iPad.app */,
+				5FC6BFDB22A54B8700F17764 /* Photo Finder.app */,
 				5FC6BFEF22A54B8800F17764 /* PhotoFinderTests-iPad.xctest */,
 				5F34495623219EC00080AA99 /* PhotoFinderShared.framework */,
 				5F34495E23219EC00080AA99 /* PhotoFinderSharedTests.xctest */,
-				5F32BC4D232D880500A27899 /* PhotoFinder.app */,
+				5F32BC4D232D880500A27899 /* Photo Finder.app */,
 				5F32BC60232D880600A27899 /* PhotoFinderTests.xctest */,
 			);
 			name = Products;
@@ -522,6 +531,7 @@
 			children = (
 				5FC6BFFE22A54BAA00F17764 /* Application */,
 				5FC6C01C22A54D5B00F17764 /* Coordinator */,
+				5FE22D9A23566668005FDA8E /* ViewControllers */,
 				5F98FFA6232E5F6A00A1AC5D /* ViewModel */,
 				5FC6C00722A54D5A00F17764 /* Resources */,
 			);
@@ -692,6 +702,14 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
+		5FE22D9A23566668005FDA8E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5FE22D9B23566699005FDA8E /* PhotoGridPadViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -724,7 +742,7 @@
 			);
 			name = PhotoFinder;
 			productName = RxMVVMC;
-			productReference = 5F32BC4D232D880500A27899 /* PhotoFinder.app */;
+			productReference = 5F32BC4D232D880500A27899 /* Photo Finder.app */;
 			productType = "com.apple.product-type.application";
 		};
 		5F32BC5F232D880600A27899 /* PhotoFinderTests */ = {
@@ -781,6 +799,7 @@
 			dependencies = (
 				5F34496123219EC00080AA99 /* PBXTargetDependency */,
 				5F34496323219EC00080AA99 /* PBXTargetDependency */,
+				5FE22D9E23566A74005FDA8E /* PBXTargetDependency */,
 			);
 			name = PhotoFinderSharedTests;
 			productName = RxMVVMSharedTests;
@@ -805,7 +824,7 @@
 			);
 			name = "PhotoFinder-iPad";
 			productName = RxMVVMC;
-			productReference = 5FC6BFDB22A54B8700F17764 /* PhotoFinder-iPad.app */;
+			productReference = 5FC6BFDB22A54B8700F17764 /* Photo Finder.app */;
 			productType = "com.apple.product-type.application";
 		};
 		5FC6BFEE22A54B8800F17764 /* PhotoFinderTests-iPad */ = {
@@ -850,7 +869,7 @@
 					};
 					5F34495D23219EC00080AA99 = {
 						CreatedOnToolsVersion = 10.3;
-						TestTargetID = 5FC6BFDA22A54B8700F17764;
+						TestTargetID = 5F32BC4C232D880500A27899;
 					};
 					5FC6BFDA22A54B8700F17764 = {
 						CreatedOnToolsVersion = 10.2.1;
@@ -1223,6 +1242,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FE22D9C23566699005FDA8E /* PhotoGridPadViewController.swift in Sources */,
 				5F32BC77232E10FF00A27899 /* AppCoordinator.swift in Sources */,
 				5F98FFA8232E5F8500A1AC5D /* PhotoGridPadViewModel.swift in Sources */,
 				5F32BC78232E110800A27899 /* PhotoGridCoordinator.swift in Sources */,
@@ -1273,6 +1293,11 @@
 			target = 5FC6BFDA22A54B8700F17764 /* PhotoFinder-iPad */;
 			targetProxy = 5FC6BFF022A54B8800F17764 /* PBXContainerItemProxy */;
 		};
+		5FE22D9E23566A74005FDA8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F32BC4C232D880500A27899 /* PhotoFinder */;
+			targetProxy = 5FE22D9D23566A74005FDA8E /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -1304,8 +1329,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.grandcentrix.RxMVVMC;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.grandcentrix.PhotoFinder;
+				PRODUCT_NAME = "Photo Finder";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -1328,8 +1354,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.grandcentrix.RxMVVMC;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.grandcentrix.PhotoFinder;
+				PRODUCT_NAME = "Photo Finder";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -1354,7 +1381,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoFinder.app/PhotoFinder";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Photo Finder.app/Photo Finder";
 			};
 			name = Debug;
 		};
@@ -1377,7 +1404,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoFinder.app/PhotoFinder";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Photo Finder.app/Photo Finder";
 			};
 			name = Release;
 		};
@@ -1405,7 +1432,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.grandcentrix.RxMVVMCShared;
+				PRODUCT_BUNDLE_IDENTIFIER = net.grandcentrix.PhotoFinderShared;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -1439,7 +1466,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.grandcentrix.RxMVVMCShared;
+				PRODUCT_BUNDLE_IDENTIFIER = net.grandcentrix.PhotoFinderShared;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -1467,7 +1494,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoFinder-iPad.app/PhotoFinder-iPad";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Photo Finder.app/Photo Finder";
 			};
 			name = Debug;
 		};
@@ -1489,7 +1516,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoFinder-iPad.app/PhotoFinder-iPad";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Photo Finder.app/Photo Finder";
 			};
 			name = Release;
 		};
@@ -1628,8 +1655,9 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.grandcentrix.RxMVVMC.iPad;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.grandcentrix.PhotoFinderiPad;
+				PRODUCT_NAME = "Photo Finder";
 				PROVISIONING_PROFILE_SPECIFIER = "grandcentrix Enterprise Wildcard Development";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -1655,8 +1683,9 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.grandcentrix.RxMVVMC.iPad;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.grandcentrix.PhotoFinderiPad;
+				PRODUCT_NAME = "Photo Finder";
 				PROVISIONING_PROFILE_SPECIFIER = "grandcentrix Enterprise Wildcard Development";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -1683,7 +1712,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoFinder-iPad.app/PhotoFinder-iPad";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Photo Finder.app/Photo Finder";
 			};
 			name = Debug;
 		};
@@ -1707,7 +1736,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoFinder-iPad.app/PhotoFinder-iPad";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Photo Finder.app/Photo Finder";
 			};
 			name = Release;
 		};

@@ -1,5 +1,5 @@
 import UIKit
-import RxMVVMCShared
+import PhotoFinderShared
 
 class PhotoGridPhoneViewModel: PhotoGridViewModel {
     

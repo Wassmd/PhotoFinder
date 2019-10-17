@@ -1,5 +1,5 @@
 import UIKit
-import RxMVVMCShared
+import PhotoFinderShared
 
 enum AppStep: CoordinateTo {
     case showPhotoGridView

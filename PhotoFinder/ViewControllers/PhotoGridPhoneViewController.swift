@@ -1,6 +1,4 @@
 import UIKit
-import RxMVVMCShared
+import PhotoFinderShared
 
-class PhotoGridPhoneViewController: PhotoGridViewController<PhotoGridPhoneCell> {
-    
-}
+class PhotoGridPhoneViewController: PhotoGridViewController<PhotoGridPhoneCell> {}

@@ -1,5 +1,5 @@
 import UIKit
-import RxMVVMCShared
+import PhotoFinderShared
 
 @UIApplicationMain
 class AppDelegate: BaseAppDelegate {

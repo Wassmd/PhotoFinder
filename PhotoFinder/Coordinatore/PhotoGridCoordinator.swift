@@ -1,5 +1,5 @@
 import UIKit
-import RxMVVMCShared
+import PhotoFinderShared
 
 private enum PhotoGridSteps: CoordinateTo {
     case showDetail(indexPath: IndexPath, photos: [Photo])

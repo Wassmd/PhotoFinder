@@ -1,5 +1,5 @@
 import XCTest
-@testable import RxMVVMCShared
+@testable import PhotoFinderShared
 
 class RxMVVMSharedTests: XCTestCase {
 
