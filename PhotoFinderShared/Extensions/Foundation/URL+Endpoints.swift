@@ -16,7 +16,7 @@ extension URL {
         static let safeSearchKey = "safe_search"
         static let safeSearchValue = "1"
         static let perPageKey = "per_page"
-        static let perPageValue = "15"
+        static let perPageValue = "100"
         static let pageKey = "page"
         static let searchTextKey = "text"
     }
